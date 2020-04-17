@@ -1035,12 +1035,12 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
 
     @Override
     public void onHostResume() {
-      // do nothing
+      super.onResume();
     }
 
     @Override
     public void onHostPause() {
-      // do nothing
+      super.onPause();
     }
 
     @Override
